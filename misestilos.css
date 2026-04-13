@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 15px;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+.contenedor {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.encabezado {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.encabezado-fondo {
+  background-color: #45735D;
+  height: 140px;
+}
+
+.foto-perfil {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-top: -80px;
+  border: 4px solid #ffffff00;
+}
+
+.nombre {
+  margin-top: 14px;
+  font-size: 22px;
+}
+
+.sobre-mi-contenido {
+  padding: 30px 0 40px;
+  overflow: hidden;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.sobre-mi-imagen {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 45%;
+}
+
+.sobre-mi-imagen img {
+  width: 100%;
+}
+
+.sobre-mi-texto {
+  float: left;
+  width: 50%;
+}
+
+.sobre-mi-texto p {
+  margin-bottom: 10px;
+}
+
+.etiqueta-pequena {
+  font-size: 11px;
+  color: #888888;
+  margin-bottom: 8px;
+}
+
+.proyectos {
+  background-color: #f2af5e2f;
+  padding: 36px 0;
+  clear: both;
+}
+
+.proyectos .contenido-interno {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.titulo-seccion {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.grilla-proyectos {
+  text-align: center;
+}
+
+.tarjeta-proyecto {
+  display: inline-block;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.miniatura-proyecto {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 8px;
+}
+
+.titulo-proyecto {
+  font-size: 13px;
+}
+
+.imagen-destacada {
+  padding: 40px 0;
+}
+
+.imagen-destacada .imagen-grande {
+  display: block;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto 16px;
+}
+
+.imagen-destacada .descripcion-imagen {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.descripcion-imagen p {
+  margin-bottom: 8px;
+}
+
+.contacto {
+  padding: 20px 0 48px;
+}
+
+.contacto .contacto-contenido {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.imagen-contacto {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+}
+
+.titulo-contacto {
+  font-size: 18px;
+  padding-top: 40px;
+  text-align: left;
+}
+
+.pie-de-pagina {
+  background-color: #45735D;
+  text-align: center;
+  padding: 22px;
+  font-size: 13px;
+  color: #ffffff;
+  clear: both;
+}
+
+@media (max-width: 540px) {
+
+  .sobre-mi-imagen {
+    float: none;
+    margin-left: 0;
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  .sobre-mi-texto {
+    float: none;
+    width: 100%;
+  }
+
+  .tarjeta-proyecto {
+    margin: 0 12px;
+  }
+
+  .miniatura-proyecto {
+    width: 70px;
+    height: 70px;
+  }
+
+  .imagen-contacto {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .titulo-contacto {
+    padding-top: 0;
+    text-align: center;
+  }
+}
